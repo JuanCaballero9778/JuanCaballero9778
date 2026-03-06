@@ -81,9 +81,10 @@
       <img src="https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/r.svg" width="60"/><br>R
     </td>
     <td align="center">
+      <img src="https://www.ibm.com/content/dam/adobe-cms/instana/media_logo/Rabbit.png/_jcr_content/renditions/cq5dam.web.1280.1280.png" width="110"/><br>RabbitMQ
+    </td>
   </tr>
 </table>
-
 </div>
 
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif"></a>
