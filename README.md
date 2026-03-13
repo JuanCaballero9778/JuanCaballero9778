@@ -110,3 +110,44 @@
 ## 📫 Let's Connect
 
 <p>Always open to new projects and collaborations! 🌟</p>
+
+## 🚀📐Projects
+
+<h3>🚗 RIDECI — University Ride-Sharing Platform</h3>
+
+<p>
+<strong>Description:</strong><br>
+RIDECI is a platform designed to improve mobility for university students and staff by enabling secure ride coordination within the university community.
+</p>
+
+<p>
+<strong>Problem Addressed:</strong><br>
+University members often face inefficient and uncoordinated transportation, with no secure system to organize shared rides or communicate safely with other users.
+</p>
+
+<p>
+<strong>Solution:</strong><br>
+Developed a ride-sharing platform integrating geolocation, real-time communication, and digital payments to allow users to coordinate rides efficiently and securely.
+</p>
+
+<p>
+<strong>My Contributions:</strong>
+<ul>
+<li>Designed and implemented the <strong>Communication and Security module</strong>.</li>
+<li>Implemented authentication and authorization using <strong>JWT</strong>.</li>
+<li>Developed <strong>real-time communication features</strong> using WebSockets.</li>
+<li>Applied <strong>Clean Architecture and Hexagonal Architecture</strong> principles.</li>
+<li>Collaborated in system design focused on <strong>scalable and containerized deployment</strong>.</li>
+</ul>
+</p>
+
+<p>
+<strong>Technologies:</strong><br>
+Node.js • React • TypeScript • WebSockets • Socket.IO • PostgreSQL • MongoDB • Docker • Kubernetes • Azure • GitHub Actions
+</p>
+
+<p>
+<strong>Repository:</strong><br>
+<a href="https://github.com/RIDECI">View Project on GitHu</a>
+</p>
+
