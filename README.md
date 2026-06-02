@@ -162,12 +162,12 @@ Fight Club is a real-time multiplayer fighting game and platform driven by a mic
 
 <p>
 <strong>Problem Addressed:</strong><br>
-Multiplayer web games often suffer from high latency, desynchronization during high-concurrency matches, and vulnerabilities like session hijacking, toxic behavior, lack of administrative control, and single points of failure.
+Multiplayer web games often suffer from high latency, desynchronization during high-concurrency matches, and vulnerabilities like session hijacking. Additionally, without proper monitoring and stress testing, microservices are prone to undetected cascading failures, performance bottlenecks, and single points of failure under heavy player traffic.
 </p>
 
 <p>
 <strong>Solution:</strong><br>
-Engineered a low-latency, scalable multiplayer ecosystem using architectural quality attributes (High Availability and Scalability) with a load balancer and redundant server nodes. Integrated dual-token security, Google OAuth, AI-powered voice/text chat moderation, and an administrative panel for real-time player bans.
+Engineered a low-latency, highly available, and scalable multiplayer ecosystem. Implemented architectural resilience using a load balancer with redundant server nodes and validated system limits through rigorous load testing. Built a full observability pipeline for real-time microservices monitoring, and integrated dual-token security, Google OAuth, and AI-powered chat moderation.
 </p>
 
 <p>
@@ -175,6 +175,8 @@ Engineered a low-latency, scalable multiplayer ecosystem using architectural qua
 <ul>
 <li>Designed and implemented low-latency game state synchronization and concurrent matchmaking using <strong>WebSockets</strong> and multi-threading.</li>
 <li>Applied high-availability practices by deploying redundant server nodes managed by a <strong>Load Balancer</strong> to ensure system resilience and fault tolerance.</li>
+<li>Established an <strong>Observability stack using Prometheus and Grafana</strong> to collect metrics, visualize system behavior, and monitor the health and performance of individual microservices in real time.</li>
+<li>Conducted comprehensive <strong>Load and Stress Testing</strong> to evaluate infrastructure behavior, identify concurrency bottlenecks, and guarantee system stability under high traffic conditions.</li>
 <li>Implemented advanced security protocols using <strong>JWT (Access & Refresh Tokens)</strong> to mitigate session hijacking and integrated <strong>Google OAuth 2.0</strong> for seamless authentication.</li>
 <li>Integrated <strong>AI/ML Moderation APIs</strong> to analyze real-time text and voice chat, automatically flagging toxic behavior.</li>
 <li>Developed a comprehensive <strong>Administrative Supervision Dashboard</strong> to monitor server health, audit flagged logs, and execute real-time player bans.</li>
@@ -183,8 +185,9 @@ Engineered a low-latency, scalable multiplayer ecosystem using architectural qua
 
 <p>
 <strong>Technologies:</strong><br>
-Java • Spring Boot (WebSockets, Security) • OAuth 2.0 • JWT • React • TypeScript • Tailwind CSS • AI/ML Moderation APIs • MongoDB • PostgreSQL • Docker • NGINX / Load Balancers
+Java • Spring Boot (WebSockets, Security) • OAuth 2.0 • JWT • React • TypeScript • Tailwind CSS • Prometheus • Grafana • Load Testing Tools • AI/ML Moderation APIs • MongoDB • PostgreSQL • Docker • NGINX / Load Balancers
 </p>
+
 
 <p>
 <strong>Repository:</strong><br>
