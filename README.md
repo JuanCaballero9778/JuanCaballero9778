@@ -185,7 +185,7 @@ Engineered a low-latency, highly available, and scalable multiplayer ecosystem. 
 
 <p>
 <strong>Technologies:</strong><br>
-Java • Spring Boot (WebSockets, Security) • OAuth 2.0 • JWT • React • TypeScript • Tailwind CSS • Prometheus • Grafana • Load Testing Tools • AI/ML Moderation APIs • MongoDB • PostgreSQL • Docker • NGINX / Load Balancers
+Java • Spring Boot (WebSockets, Security) • OAuth 2.0 • JWT • Refresh JWT redis • React • TypeScript • Tailwind CSS • Prometheus • Grafana • Load Testing Tools • AI/ML Moderation APIs • MongoDB • PostgreSQL • Docker • NGINX / Load Balancers
 </p>
 
 
