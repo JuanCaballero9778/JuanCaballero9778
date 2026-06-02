@@ -153,3 +153,40 @@ Node.js • React • TypeScript • WebSockets • Socket.IO • PostgreSQL •
 <a href="https://github.com/RIDECI">View Project on GitHu</a>
 </p>
 
+<h3>🥊 Fight Club — Real-Time Multiplayer Fighting Game & Platform</h3>
+
+<p>
+<strong>Description:</strong><br>
+Fight Club is a real-time multiplayer fighting game and platform driven by a microservices architecture, featuring fast-paced combat, AI-driven chat moderation, and a robust administration dashboard.
+</p>
+
+<p>
+<strong>Problem Addressed:</strong><br>
+Multiplayer web games often suffer from high latency, desynchronization during high-concurrency matches, and vulnerabilities like session hijacking, toxic behavior, lack of administrative control, and single points of failure.
+</p>
+
+<p>
+<strong>Solution:</strong><br>
+Engineered a low-latency, scalable multiplayer ecosystem using architectural quality attributes (High Availability and Scalability) with a load balancer and redundant server nodes. Integrated dual-token security, Google OAuth, AI-powered voice/text chat moderation, and an administrative panel for real-time player bans.
+</p>
+
+<p>
+<strong>My Contributions:</strong>
+<ul>
+<li>Designed and implemented low-latency game state synchronization and concurrent matchmaking using <strong>WebSockets</strong> and multi-threading.</li>
+<li>Applied high-availability practices by deploying redundant server nodes managed by a <strong>Load Balancer</strong> to ensure system resilience and fault tolerance.</li>
+<li>Implemented advanced security protocols using <strong>JWT (Access & Refresh Tokens)</strong> to mitigate session hijacking and integrated <strong>Google OAuth 2.0</strong> for seamless authentication.</li>
+<li>Integrated <strong>AI/ML Moderation APIs</strong> to analyze real-time text and voice chat, automatically flagging toxic behavior.</li>
+<li>Developed a comprehensive <strong>Administrative Supervision Dashboard</strong> to monitor server health, audit flagged logs, and execute real-time player bans.</li>
+</ul>
+</p>
+
+<p>
+<strong>Technologies:</strong><br>
+Java • Spring Boot (WebSockets, Security) • OAuth 2.0 • JWT • React • TypeScript • Tailwind CSS • AI/ML Moderation APIs • MongoDB • PostgreSQL • Docker • NGINX / Load Balancers
+</p>
+
+<p>
+<strong>Repository:</strong><br>
+<a href="https://github.com/Fight-Club-Online">View Project on GitHub</a>
+</p>
