@@ -81,9 +81,6 @@
       <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/azure/azure-original.svg" width="60"/><br>Azure
     </td>
     <td align="center">
-      <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nginx/nginx-original.svg" width="60"/><br>NGINX
-    </td>
-    <td align="center">
       <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/github/github-original.svg" width="60"/><br>GitHub Actions
     </td>
   </tr>
