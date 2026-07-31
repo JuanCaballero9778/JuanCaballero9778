@@ -63,7 +63,7 @@
       <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/redis/redis-original.svg" width="60"/><br>Redis
     </td>
     <td align="center">
-      <img src="https://www.ibm.com/content/dam/adobe-cms/instana/media_logo/Rabbit.png/_jcr_content/renditions/cq5dam.web.1280.1280.png" width="60"/><br>RabbitMQ
+      <img src="https://www.ibm.com/content/dam/adobe-cms/instana/media_logo/Rabbit.png/_jcr_content/renditions/cq5dam.web.1280.1280.png" width="80"/><br>RabbitMQ
     </td>
     <td align="center">
       <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/apachekafka/apachekafka-original.svg" width="60"/><br>Apache Kafka
@@ -82,6 +82,9 @@
     </td>
     <td align="center">
       <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/github/github-original.svg" width="60"/><br>GitHub Actions
+    </td> 
+    <td align="center">
+      <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/scikitlearn/scikitlearn-original.svg" width="60"/><br>Scikit-Learn
     </td>
   </tr>
   <!-- Row 5: APIs, Payments & Monitoring -->
