@@ -189,7 +189,7 @@ Node.js • React • TypeScript • WebSockets • Socket.IO • PostgreSQL •
 
 <p>
 <strong>Repository:</strong><br>
-<a href="https://github.com/RIDECI">View Project on GitHu</a>
+<a href="https://github.com/RIDECI">View Project on GitHub</a>
 </p>
 
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif"></a>
