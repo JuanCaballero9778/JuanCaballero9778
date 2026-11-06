@@ -285,3 +285,51 @@ Python • FastAPI • Machine Learning (Scikit-Learn, Random Forest) • SHAP (
 <strong>Repository:</strong><br>
 <a href="https://github.com/SRPHS-1">View Project on GitHub</a>
 </p>
+
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif"></a>
+
+---
+
+### 🔐 RAG Exfiltration Security · Securing AI Assistants Against Data Leaks
+
+**Description:**
+A security project that studies how a Retrieval-Augmented Generation assistant, known as RAG, can be tricked into leaking restricted documents, and how to prevent it. It combines a RAG backend with access controls and a full application-security review covering SAST, DAST, and a minimal pentest inside a DevSecOps workflow.
+
+**Problem Addressed:**
+RAG systems retrieve internal documents to answer questions. Without proper controls, an attacker or an unauthorized user can phrase a prompt that makes the AI reveal confidential information.
+
+**Solution:**
+Built a RAG backend that filters retrievable documents by user, role, and classification level, then audited it with automated security scanning and a remediation plan for critical and high findings.
+
+**My Contributions:**
+- Researched and documented the **RAG data exfiltration** problem in an **IEEE-style paper** for the Information Security Fundamentals course.
+- Worked on the **Java 21 + Spring Boot + LangChain4j** backend, applying **access filters by user, role, and document classification**.
+- Ran **SAST, DAST, and a minimal pentest** in a **DevSecOps pipeline with GitHub Actions**, using **OWASP ZAP** for dynamic analysis.
+- Documented findings in a **severity matrix** with evidence, decisions, and remediation pull requests.
+- Presented the results and demos to the class.
+
+**Technologies:**
+`Java 21` · `Spring Boot` · `LangChain4j` · `RAG` · `GitHub Actions` · `SAST` · `DAST` · `OWASP ZAP` · `DevSecOps`
+
+**🎬 Demo Videos:**
+
+<table>
+  <tr>
+    <td align="center" width="50%">
+      <a href="https://youtu.be/amat1kTyRzY">
+        <img src="https://img.youtube.com/vi/amat1kTyRzY/hqdefault.jpg" alt="RAG Exfiltration Security - Demo 1" width="100%"/>
+      </a>
+      <br/><sub><b>▶️ Demo 1</b></sub>
+    </td>
+    <td align="center" width="50%">
+      <a href="https://youtu.be/Y1my7nwZUL8">
+        <img src="https://img.youtube.com/vi/Y1my7nwZUL8/hqdefault.jpg" alt="RAG Exfiltration Security - Demo 2" width="100%"/>
+      </a>
+      <br/><sub><b>▶️ Demo 2</b></sub>
+    </td>
+  </tr>
+</table>
+
+**Repository:** [📁 View on GitHub](https://github.com/rag-exfiltration-security)
+
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:1f6feb,100:58a6ff&height=3" width="100%"/>
